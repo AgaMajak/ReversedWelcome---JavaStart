@@ -12,9 +12,9 @@ class WelcomeLogic {
         }
     }
 
-    void showNames() {
-        for (String allnames : names) {
-            System.out.println(allnames);
+    void returnWelcomes() {
+        for (int i = names.length - 1; i < names.length && i >= 0; i--) {
+            System.out.println("Cześć " + names[i]);
         }
     }
 

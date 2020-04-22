@@ -4,12 +4,7 @@ class WelcomeMain {
         WelcomeLogic welcome = new WelcomeLogic();
 
         welcome.addNamesFromUser();
-        welcome.showNames();
-
-
-
-
-
+        welcome.returnWelcomes();
 
     }
 }
